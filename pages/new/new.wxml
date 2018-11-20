@@ -1,3 +1,26 @@
 <!--pages/new/new.wxml-->
-<text>pages/new/new.wxml</text>
-<view> test added more text - Brian</view>
+<view>Add Your Sock Monster</view>
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+  
+  <view class="section">
+    <view class="section__title">Name</view>
+    <input name="input" placeholder="e.g. Mean Sock Eating Machine" />
+  </view>
+
+  <view class="section">
+    <view class="section__title">Description</view>
+    <input name="input" placeholder="e.g. Whats your monster look like?" />
+  </view>
+
+  <view class="section">
+    <view class="section__title">Sock Count</view>
+    <input name="input" placeholder="e.g. 1,200 socks" />
+  </view>
+
+  <view class="btn-area">
+    <button formType="submit">Submit</button>
+
+    <button formType="reset">Reset</button>
+  </view>
+</form>
