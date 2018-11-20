@@ -5,7 +5,8 @@ Page({
    * Page initial data
    */
   data: {
-
+    machines: [{ name: "Test" }, { name: "Hey" }, { name: "Name" }, { name: "Machine" }
+    ]
   },
 
   /**
