@@ -12,7 +12,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.0",
-	"appid": "wx1c6e24cffd9be4f7",
+	"appid": "wxca97160920c9d448",
 	"projectname": "sock-monster-airbnb-wechat",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -27,13 +27,29 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 1,
+			"list": [
+				{
+					"id": -1,
+					"name": "Show Page",
+					"pathName": "pages/show/show",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Index Page",
+					"pathName": "pages/index/index"
+				}
+			]
 		}
 	}
 }
