@@ -5,7 +5,7 @@ Page({
    * Page initial data
    */
   data: {
-    machines: [{ name: "Test" }, { name: "Hey" }, { name: "Name" }, { name: "Machine" }
+    machines: [{ name: "Test", price: "$5/hour" }, { name: "Hey", price: "$9/hour" }, { name: "Name", price: "$11/hour" }, { name: "Machine", price: "$3/hour" }, { name: "Hello", price: "$6/hour" }
     ]
   },
 

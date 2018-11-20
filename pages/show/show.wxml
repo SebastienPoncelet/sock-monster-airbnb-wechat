@@ -4,8 +4,26 @@
  <view class="image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://picsum.photos/200/300/?random');">
   </view>
 
-<!--Avatar-->
+<!--Washing machine info (name, description and type-->
+<view class="machine-info"> 
+  <view class="machine-name">
+    <text>Name</text>
+  </view>
+  <view class="machine-type">
+    <text>Washing Machine</text>
+  </view>
+  <view class="machine-description">
+    <text>This is such a fantastic washing machine, I really recommend it, it has changed my sock washing ways</text>
+  </view>
+  <!--Avatar-->
   <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://picsum.photos/200/300/?random');"></view>
+</view>
+
+<!--Price-->
+<view class="price">
+  <text>$5</text>
+</view>
+
 
 <!--Book button made with wechat default -->
   <view class="book-button" >
