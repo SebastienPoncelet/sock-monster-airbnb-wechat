@@ -12,7 +12,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.0",
-	"appid": "Wx84bcefd12377ba30",
+	"appid": "wx84bcefd12377ba30",
 	"projectname": "sock-monster-airbnb-wechat",
 	"debugOptions": {
 		"hidedInDevtools": []
