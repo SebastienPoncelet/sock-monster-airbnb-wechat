@@ -14,11 +14,7 @@
   width: 100rpx;
   height: 100rpx;
   border-radius: 50%;
-  border: 1px solid #021a40;
-}
-.card-category {
-  font-size: 15px;
-  text-transform: uppercase;
+  border: 3px solid white;
 }
 
 .image-title-container {
