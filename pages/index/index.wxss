@@ -1,21 +1,50 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/**card info**/
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  border-radius: 6px;
+  margin: 20px;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 80rpx;
+  height: 80rpx;
   border-radius: 50%;
+  border: 1px solid #021a40;
+}
+.card-category {
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.card-description .h2 {
+  font-size: 16px;
+  padding: 15px;
 }
-
-.usermotto {
-  margin-top: 200px;
+.card-description .p {
+  font-size: 14px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
 }
