@@ -59,13 +59,13 @@ Page({
     console.log("machine", machine)
     // Get api data
     wx.request({
-      url: `${apiURL} + machines`,
+      url: `http://localhost:3000/api/v1/machines`,
       method: 'POST',
       data: {machine},
       success(res) {
         console.log(res)
         // set data on main & show
-        wx.redirectTo({
+        wx.reLaunch({
           url: '/pages/main/main'
         });
       }
