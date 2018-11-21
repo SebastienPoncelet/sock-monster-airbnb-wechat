@@ -11,9 +11,8 @@
 
 <input value='{{ availability }}' class="desc" name="availability" placeholder="Days Available" />
 
-<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
-        disabled="{{disabled}}" bindtap="chooseImage" class="img-btn" > UPLOAD AN IMAGE </button>
+  <button class="btn-upload" formType="submit">Upload an Image</button>
 
-  <button class="btn-submit blue" formType="submit">SUBMIT</button>
+  <button class="btn-submit" formType="submit">Submit</button>
 </form>
 </view>
