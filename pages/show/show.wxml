@@ -29,7 +29,7 @@
     <!--Price-->
     <view class="price">
       <text>$5</text>
-      <text class="per-night"> per day</text>
+      <text class="per-night"> /day</text>
     </view>
 
     <!--Book button -->
