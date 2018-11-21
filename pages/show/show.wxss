@@ -1,1 +1,60 @@
 /* pages/show/show.wxss */
+
+.image {
+  height: 150px;
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  border-radius: 6px;
+  margin: 20px;
+}
+
+.avatar {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  margin: 20px;
+  position: absolute;
+  right: 10px;
+  top: 175px;
+
+}
+
+.machine-info {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.machine-info .machine-name {
+  font-weight: bold;
+  font-size: 22px;
+   padding: 5px;
+
+}
+
+.machine-info .machine-type {
+  font-size: 14px;
+  padding: 5px;
+}
+
+.machine-info .machine-description {
+  font-size: 13px;
+  font-weight: lighter;
+  padding: 5px;
+}
+
+.price {
+  font-size: 20px;
+  position: absolute;
+  right: 120px;
+  font-weight: bold;
+
+}
+.book-button {
+  width: 280px;
+  padding: 0 20px;
+  position: absolute;
+  bottom: 56px;
+}
