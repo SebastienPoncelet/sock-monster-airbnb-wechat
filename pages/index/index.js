@@ -1,11 +1,11 @@
-//index.js
+ //index.js
 //获取应用实例
 const app = getApp()
 
 Page({
   goMachine() {
     console.log("goMachine globalData", app.globalData)
-    wx.navigateTo({
+    wx.switchTab({
       url: '/pages/main/main',
     })
   },
