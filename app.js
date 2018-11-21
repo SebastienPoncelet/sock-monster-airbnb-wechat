@@ -1,7 +1,14 @@
 //app.js
+
+const app = getApp()
+
 App({
 
   onLaunch: function () {
+    // app.status = function () {
+    //   console.log("status", globalData)
+    // }
+
     const host = 'http://localhost:3000/'
     console.log('processing to login')
     wx.login({
@@ -16,7 +23,7 @@ App({
           },
           
           success: (res) => {
-            console.log(res)
+            console.log("login info", res)
             this.globalData.userId = res.data.userId
           }
 

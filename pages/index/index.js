@@ -3,11 +3,25 @@
 const app = getApp()
 
 Page({
+  goMachine() {
+    console.log("goMachine globalData", app.globalData)
+    wx.navigateTo({
+      url: '/pages/new/new',
+    })
+  },
   getUserInfo: function (e) {
     console.log(e)
-    app.globalData.userInfo = e.detail.userInfo
+    let userInfo = e.detail.userInfo
+    app.globalData.userInfo = userInfo
     this.setData({
-      userInfo: e.detail.userInfo
+      userInfo: userInfo
     })
+    // wx.setStorage({
+    //   key: 'userInfo',
+    //   data: userInfo,
+    //   success: function(res) {},
+    //   fail: function(res) {},
+    //   complete: function(res) {},
+    // })
   }
 })
