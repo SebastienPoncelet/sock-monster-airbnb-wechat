@@ -2,7 +2,7 @@
 
 .image {
   height: 200px;
-  width: 270px;
+  width: 380px;
   background-size: cover !important;
   background-position: center;
   color: white;
