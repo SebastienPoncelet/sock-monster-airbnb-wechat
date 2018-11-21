@@ -1,6 +1,8 @@
 // pages/new/new.js
 
 const app = getApp()
+const apiURL = app.globalData.host
+
 
 Page({
 
@@ -57,10 +59,11 @@ Page({
     console.log("machine", machine)
     // Get api data
     wx.request({
-      url: `http://localhost:3000/api/v1/machines`,
+      url: `${apiURL} + machines`,
       method: 'POST',
       data: {machine},
-      success() {
+      success(res) {
+        console.log(res)
         // set data on main & show
         wx.redirectTo({
           url: '/pages/main/main'
@@ -81,7 +84,6 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
-
   },
 
   /**
