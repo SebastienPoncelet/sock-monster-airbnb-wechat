@@ -1,4 +1,7 @@
 // pages/new/new.js
+
+const app = getApp()
+
 Page({
 
   //Choose Image Function
@@ -36,23 +39,27 @@ Page({
     var price = e.detail.value.price;
     var availability = e.detail.value.availability
 
-      let machine = {
-        "id": 45,
-        "name": name,
-        "image": image,
-        "description": description,
-        "location": address,
-        "sock_count": socks,
-        "price": price,
-        "availabitlity": availability
+    let userInfo = app.globalData.userInfo
+    let userId = app.globalData.userId
+    console.log("userInfo", userInfo)
+
+    let machine = {
+      "name": name,
+      user_id: userId,
+      "image": image,
+      "description": description,
+      "location": address,
+      "sock_count": socks,
+      "price": price,
+      "availability": availability
    }
 
-    console.log(machine)
+    console.log("machine", machine)
     // Get api data
     wx.request({
       url: `http://localhost:3000/api/v1/machines`,
       method: 'POST',
-      data: machine,
+      data: {machine},
       success() {
         // set data on main & show
         wx.redirectTo({
