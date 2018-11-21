@@ -11,13 +11,15 @@
               <view class="card-footer">
             <!--price-->
             <text class="price">{{machine.price}}</text>
+            <text></text>
               </view>
           </view>
       </view>
     </view>
 </view>
 
-
+<!-- <view class="add-button" bindtap='goToAddPage'> +
+</view> -->
 
 
 

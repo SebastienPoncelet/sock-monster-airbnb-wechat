@@ -1,6 +1,6 @@
 /**card info**/
 .card-body {
-  height: 130px;
+  height: 127px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
@@ -37,3 +37,22 @@
   color: white;
   font-weight: bold;
 }
+
+/* .add-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height:50px;
+  border: 3px solid #219653;
+  color: #219653;
+  text-align: center;
+  text-decoration: none;
+  background: white;
+  box-shadow: 0 0 3px gray;
+  font-size: 26px;
+  font-weight: bold;
+  position: fixed;
+  right: 135px;
+  bottom: -20px;
+  z-index: 10000;
+} */

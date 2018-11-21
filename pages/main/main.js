@@ -5,7 +5,7 @@ Page({
    * Page initial data
    */
   data: {
-    machines: [{ name: "Test", price: "$5/hour" }, { name: "Hey", price: "$9/hour" }, { name: "Name", price: "$11/hour" }, { name: "Machine", price: "$3/hour" }, { name: "Hello", price: "$6/hour" }
+    machines: [{ name: "Test", price: "$5/day" }, { name: "Hey", price: "$9/day" }, { name: "Name", price: "$11/day" }, { name: "Machine", price: "$3/day" }, { name: "Hello", price: "$6/day" }
     ]
   },
 
@@ -69,7 +69,12 @@ Page({
     wx.navigateTo({
       url: '/pages/show/show',
     })
-  
   }
+  
+  //   goToAddPage: function () {
+  //   wx.navigateTo({
+  //     url: '/pages/add/add',
+  //   })
+  // }
 
 })

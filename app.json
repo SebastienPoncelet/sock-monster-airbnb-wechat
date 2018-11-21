@@ -26,8 +26,13 @@
         "selectedIconPath": "/commons/assets/icons/home.png"
       },
       {
+        "pagePath": "pages/add/add",
+        "iconPath": "/commons/assets/icons/add_unactiveg.png",
+        "selectedIconPath": "/commons/assets/icons/add.png"
+      },
+      {
         "pagePath": "pages/profile/profile",
-        "iconPath": "/commons/assets/icons/profile.png",
+        "iconPath": "/commons/assets/icons/profile_unactive.png",
         "selectedIconPath": "/commons/assets/icons/profile.png"
       }
     ]
