@@ -18,12 +18,13 @@ Page({
     this.setData(app.globalData)
   },
 
-  showMachine(e) {
-    const data = e.currentTarget.dataset;
-    const machine = data.machine;
+  showMachine: function(e) {
+    console.log(1, e)
+    const data = e.currentTarget.dataset.id;
+    console.log(1, data)
 
     wx.navigateTo({
-      url: `../show/show?id=${machine.id}`
+      url: `../show/show?id=${data}`
     });
   },
 
