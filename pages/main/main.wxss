@@ -1,6 +1,6 @@
 /**card info**/
-.card {
-  height: 150px;
+.card-body {
+  height: 130px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
@@ -9,6 +9,7 @@
   border-radius: 6px;
   margin: 20px;
 }
+
 .avatar {
   position: absolute;
   left: 10px;
@@ -16,7 +17,7 @@
   width: 100rpx;
   height: 100rpx;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 2px solid white;
 }
 
  .card-description .h2 {
@@ -24,11 +25,15 @@
   padding: 15px;
   position: absolute;
   top: 50px;
+  font-weight: bold;
 }
-.card-description .p {
+
+.card-footer .price {
   font-size: 14px;
   position: absolute;
   bottom: 10px;
   right: 10px;
   padding: 10px;
+  color: white;
+  font-weight: bold;
 }
