@@ -6,7 +6,7 @@ Page({
   goMachine() {
     console.log("goMachine globalData", app.globalData)
     wx.navigateTo({
-      url: '/pages/new/new',
+      url: '/pages/main/main',
     })
   },
   getUserInfo: function (e) {
