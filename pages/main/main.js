@@ -63,5 +63,13 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  goToShowPage: function () {
+    wx.navigateTo({
+      url: '/pages/show/show',
+    })
+  
   }
+
 })

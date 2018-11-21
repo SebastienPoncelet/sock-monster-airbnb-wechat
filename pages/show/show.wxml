@@ -28,5 +28,5 @@
 <!--Book button made with wechat default -->
   <view class="book-button" >
     <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
-        disabled="{{disabled}}" bindtap="primary">Book          </button>
+        disabled="{{disabled}}" bindtap="primary">Book</button>
   </view>
