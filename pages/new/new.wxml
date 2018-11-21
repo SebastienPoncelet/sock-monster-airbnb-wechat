@@ -5,17 +5,17 @@
   
   <view class="section">
     <view class="section__title">Name</view>
-    <input name="input" placeholder="e.g. Mean Sock Eating Machine" />
+    <input name="name" placeholder="e.g. Mean Sock Eating Machine" />
   </view>
 
   <view class="section">
     <view class="section__title">Description</view>
-    <input name="input" placeholder="e.g. Whats your monster look like?" />
+    <input name="description" placeholder="e.g. Whats your monster look like?" />
   </view>
 
   <view class="section">
     <view class="section__title">Sock Count</view>
-    <input name="input" placeholder="e.g. 1,200 socks" />
+    <input name="sock-count" placeholder="e.g. 1,200 socks" />
   </view>
 
   <view class="btn-area">
