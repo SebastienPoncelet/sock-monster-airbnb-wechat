@@ -9,6 +9,7 @@
   position: relative;
   border-radius: 6px;
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  margin-top: 20px;
 }
 
 .avatar {
@@ -18,7 +19,7 @@
   margin: 20px;
   position: absolute;
   right: 10px;
-  top: 200px;
+  top: 226px;
 
 }
 
@@ -32,12 +33,14 @@
   font-weight: bolder;
   font-size: 22px;
    padding: 5px;
-
+   color: #484848;
 }
 
 .machine-info .machine-type {
   font-size: 14px;
   padding: 5px;
+  color: #8DC9B8;
+  font-weight: bold;
 }
 
 .machine-info .machine-description {
@@ -46,10 +49,17 @@
   padding: 5px;
 }
 
+.machine-info .machine-address {
+    font-size: 13px;
+    padding: 5px;
+    color: #808080;
+}
+
 .price {
   font-size: 20px;
   font-weight: bolder;
   padding: 15px;
+  color: #484848;
 }
 
 .per-night {
@@ -64,7 +74,7 @@
 } */
 
 .book-button {
-  background-color: #27AE60;
+  background-color: #EB5757;
   width: 140px;
   border-radius: 18px;
   text-align: center;
@@ -88,13 +98,11 @@
   display: flex;
   width: 100vw;
   border-top: 2px solid #F0F0F0;
-
 }
 
 .container {
   display: flex;
   flex-direction:column;
   position: relative;
-    padding-top: 0;
-
+  padding-top: 0;
 }

@@ -13,11 +13,16 @@
     <view class="machine-type">
       <text>Washing Machine Type</text>
     </view>
+     <view class="machine-address">
+      <text>221b Baker Street, North London</text>
+    </view>
     <view class="machine-description">
       <text>This is such a fantastic washing machine, I really recommend it, it has changed my sock washing ways
+
       This is such a fantastic washing machine, I really recommend it, it has changed my sock washing ways
+      
       This is such a fantastic washing machine, I really recommend it, it has changed my sock washing ways
-      This is such a fantastic washing machine, I really recommend it, it has changed my sock washing ways
+     
      </text>
     </view>
     <!--Avatar-->

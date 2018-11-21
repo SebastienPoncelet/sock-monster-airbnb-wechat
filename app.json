@@ -10,7 +10,7 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#8DC9B8",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
   },
@@ -26,7 +26,7 @@
         "selectedIconPath": "/commons/assets/icons/home.png"
       },
       {
-        "pagePath": "pages/add/add",
+        "pagePath": "pages/new/new",
         "iconPath": "/commons/assets/icons/add_unactiveg.png",
         "selectedIconPath": "/commons/assets/icons/add.png"
       },

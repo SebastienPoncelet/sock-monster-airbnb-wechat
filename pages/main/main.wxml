@@ -1,6 +1,10 @@
+<view class="title">
+  <text>Sock Monster Selection</text>
+</view>
+
  <!--CARDS-->
 <view class="cards">
-  <view wx:for="{{machines}}" wx:for-item="machine" >
+  <block wx:for="{{machines}}" wx:for-item="machine" >
     <view class="card" bindtap='goToShowPage'>
           <view class="card-body" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://picsum.photos/200/300/?random');">
               <view class="card-description">
@@ -8,14 +12,14 @@
               <view class="h2">{{machine.name}}</view>
               <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://picsum.photos/200/300/?random');"></view>
               </view>
-              <view class="card-footer">
+             
+          </view>
+             <view class="card-footer">
             <!--price-->
             <text class="price">{{machine.price}}</text>
-            <text></text>
               </view>
-          </view>
       </view>
-    </view>
+    </block>
 </view>
 
 <!-- <view class="add-button" bindtap='goToAddPage'> +
