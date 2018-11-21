@@ -1,26 +1,15 @@
 <!--pages/new/new.wxml-->
-<view>Add Your Sock Monster</view>
+<view class="h1">Add Your Washing Machine</view>
+<view class="form-fields">
+<form bindsubmit="userInput" bindreset="formReset">
+  <input value="{{ temp.name }}" class="desc" name="name" placeholder="Enter A Name" />
+  <input value='{{ temp.desc }}' class="desc" name="description" placeholder="Enter A Description" />
+<input value='{{ temp.socks }}' class="desc" name="socks" placeholder="Enter How Many Socks Eaten" />
+<input value='{{ temp.address }}' class="desc" name="address" placeholder="Enter Your Address" />
 
-<form bindsubmit="formSubmit" bindreset="formReset">
-  
-  <view class="section">
-    <view class="section__title">Name</view>
-    <input name="name" placeholder="e.g. Mean Sock Eating Machine" />
-  </view>
+<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="chooseImage" class="img-btn" > UPLOAD AN IMAGE </button>
 
-  <view class="section">
-    <view class="section__title">Description</view>
-    <input name="description" placeholder="e.g. Whats your monster look like?" />
-  </view>
-
-  <view class="section">
-    <view class="section__title">Sock Count</view>
-    <input name="sock-count" placeholder="e.g. 1,200 socks" />
-  </view>
-
-  <view class="btn-area">
-    <button formType="submit">Submit</button>
-
-    <button formType="reset">Reset</button>
-  </view>
+  <button class="btn-submit blue" formType="submit">SUBMIT</button>
 </form>
+</view>
