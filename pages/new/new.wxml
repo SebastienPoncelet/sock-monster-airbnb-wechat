@@ -1,11 +1,15 @@
 <!--pages/new/new.wxml-->
 <view class="h1">Add Your Washing Machine</view>
 <view class="form-fields">
-<form bindsubmit="userInput" bindreset="formReset">
-  <input value="{{ temp.name }}" class="desc" name="name" placeholder="Enter A Name" />
-  <input value='{{ temp.desc }}' class="desc" name="description" placeholder="Enter A Description" />
-<input value='{{ temp.socks }}' class="desc" name="socks" placeholder="Enter How Many Socks Eaten" />
-<input value='{{ temp.address }}' class="desc" name="address" placeholder="Enter Your Address" />
+<form bindsubmit="bindSubmit" bindreset="formReset">
+  <input value="{{ name }}" class="desc" name="name" placeholder="Enter A Name" />
+  <input value='{{ description }}' class="desc" name="description" placeholder="Enter A Description" />
+<input value='{{ socks }}' class="desc" name="socks" placeholder="Enter How Many Socks Eaten" />
+<input value='{{ address }}' class="desc" name="address" placeholder="Enter Your Address" />
+
+<input value='{{ price }}' class="desc" name="price" placeholder="Daily Rate in $$$" />
+
+<input value='{{ availability }}' class="desc" name="availability" placeholder="Days Available" />
 
 <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
         disabled="{{disabled}}" bindtap="chooseImage" class="img-btn" > UPLOAD AN IMAGE </button>

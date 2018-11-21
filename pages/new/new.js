@@ -1,6 +1,21 @@
 // pages/new/new.js
 Page({
 
+  //Choose Image Function
+
+  chooseImage() {
+    wx.chooseImage({
+      count: 1, // Default 9
+      sizeType: ['compressed'], // Can specify whether it is the original or compressed image, both have defaults
+      sourceType: ['album', 'camera'], // Can specify whether the source is an album or camera, both have defaults
+      success: function (res) {
+        // Returns the local file path list for the selected photo, tempFilePath can be used as the img tag's src attribute to display the image
+        var tempFilePaths = res.tempFilePaths
+      }
+    })
+
+  },
+
   // New Machine Submission
   bindSubmit: function (e) {
     this.setData({
@@ -17,15 +32,20 @@ Page({
     var image = e.detail.value.image;
     var description = e.detail.value.description;
     var address = e.detail.value.address;
-    var socks = e.detail.value.socks
+    var socks = e.detail.value.socks;
+    var price = e.detail.value.price;
+    var availability = e.detail.value.availability
 
-    let machine = {
-      name: name,
-      image: image,
-      description: description,
-      address: address,
-      socks: socks
-    }
+      let machine = {
+        "id": 45,
+        "name": name,
+        "image": image,
+        "description": description,
+        "location": address,
+        "sock_count": socks,
+        "price": price,
+        "availabitlity": availability
+   }
 
     console.log(machine)
     // Get api data
@@ -41,7 +61,7 @@ Page({
       }
     });
 
-  }
+  },
 
   /**
    * Page initial data
