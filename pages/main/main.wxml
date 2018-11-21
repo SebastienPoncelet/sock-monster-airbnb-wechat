@@ -2,24 +2,27 @@
   <text>Sock Monster Selection</text>
 </view>
 
- <!--CARDS-->
-<view class="cards">
-  <block wx:for="{{machines}}" wx:for-item="machine" >
-    <view class="card" bindtap='goToShowPage'>
-          <view class="card-body" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://picsum.photos/200/300/?random');">
-              <view class="card-description">
-              <!--machine name -->
-              <view class="h2">{{machine.name}}</view>
-              <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://picsum.photos/200/300/?random');"></view>
-              </view>
-             
-          </view>
-             <view class="card-footer">
-            <!--price-->
-            <text class="price">{{machine.price}}</text>
-              </view>
-      </view>
-    </block>
+ 
+
+<view wx:for="{{machines}}" wx:for-item="machine" wx:key="machine.id" bindtap="showmachine" class="card-body" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('{{machine.image}}');" data-machine="{{machine}}">
+
+  <view class="card-category">
+    {{machine.location}}
+  </view>
+
+  <view class="card-description">
+
+    <view class="h2">
+      {{machine.name}}
+    </view>
+
+    <view class="tag">
+      {{machine.description}}
+    </view>
+
+    <text class="price">{{machine.price}}</text>
+
+  </view>
 </view>
 
 <!-- <view class="add-button" bindtap='goToAddPage'> +

@@ -1,80 +1,51 @@
-// pages/main/main.js
+//index.js
+var app = getApp()
+
 Page({
-
-  /**
-   * Page initial data
-   */
   data: {
-    machines: [{ name: "Test", price: "$5/day" }, { name: "Hey", price: "$9/day" }, { name: "Name", price: "$11/day" }, { name: "Machine", price: "$3/day" }, { name: "Hello", price: "$6/day" }
-    ]
+    machines : {}
   },
-
-  /**
-   * Lifecycle function--Called when page load
-   */
   onLoad: function (options) {
 
+    // Display toast when loading
+    wx.showToast({
+      title: 'Updating',
+      icon: 'success',
+      duration: 3000
+    });
+
+    // Update local data
+    this.setData(app.globalData)
   },
 
-  /**
-   * Lifecycle function--Called when page is initially rendered
-   */
-  onReady: function () {
+  showMachine(e) {
+    const data = e.currentTarget.dataset;
+    const machine = data.machine;
 
-  },
-
-  /**
-   * Lifecycle function--Called when page show
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page hide
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page unload
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * Page event handler function--Called when user drop down
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * Called when page reach bottom
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * Called when user click on the top right corner to share
-   */
-  onShareAppMessage: function () {
-
-  },
-
-  goToShowPage: function () {
     wx.navigateTo({
-      url: '/pages/show/show',
-    })
-  }
-  
-  //   goToAddPage: function () {
-  //   wx.navigateTo({
-  //     url: '/pages/add/add',
-  //   })
-  // }
+      url: `../show/show?id=${machine.id}`
+    });
+  },
 
+  onLoad: function (options) {
+    // Save reference to page
+    let page = this;
+
+
+    // Get api data
+    wx.request({
+      url: "http://localhost:3000/api/v1/machines",
+      method: 'GET',
+      success(res) {
+        console.log("je reçois les data de l'API res", res)
+        const machines = res.data.machines;
+        // Update local data
+        page.setData({
+          machines: machines
+        });
+
+        wx.hideToast();
+      }
+    });
+  }
 })
