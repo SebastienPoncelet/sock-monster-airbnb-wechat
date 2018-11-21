@@ -7,7 +7,7 @@
 <!--Washing machine info (name, description and type-->
 <view class="machine-info"> 
   <view class="machine-name">
-    <text>Name</text>
+    <text>Best machine ever</text>
   </view>
   <view class="machine-type">
     <text>Washing Machine</text>

@@ -29,13 +29,13 @@
 
 .machine-info .machine-name {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
    padding: 5px;
 
 }
 
 .machine-info .machine-type {
-  font-size: 13px;
+  font-size: 14px;
   padding: 5px;
 }
 
