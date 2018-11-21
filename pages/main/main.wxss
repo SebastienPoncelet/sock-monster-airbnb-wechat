@@ -1,14 +1,21 @@
 /**card info**/
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 17px;
+  height: 40vh;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  border-radius: 6px;
+
+}
 .card-body {
-  height: 127px;
+  height: 80%;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
   color: white;
   position: relative;
-  border-radius: 6px;
-  margin: 20px;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  border-radius: 6px 6px 0 0;
 }
 
 .avatar {
@@ -31,20 +38,24 @@
 
 .card-footer .price {
   font-size: 14px;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  padding: 10px;
-  color: white;
-  font-weight: bold;
-}
+  padding: 8px;
+  color: #808080;
+  display: flex;
+  justify-content: flex-end;
+  }
 
 .card-footer {
   background-color: white;
+  height: 20%;
+  border-radius: 6px;
 }
 
-
-
+.title {
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  color: #484848;
+}
 
 /* .add-button {
   width: 50px;
