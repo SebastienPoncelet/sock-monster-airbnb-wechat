@@ -1,18 +1,39 @@
 /* pages/new/new.wxss */
 .h1 {
-  margin-left: 8px;
-  text-align:center;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  color: #484848;
+  padding: 2px;
 }
-.img-btn {
-  margin-bottom:15px;
+.btn-upload {
+ margin-bottom:8px;
+color:white;
+font-size: 13px;
+font-weight: bold;
+background-color: #F2994A;
+border-radius: 18px;
+padding: 2px;
+margin: 15px;
+opacity: 0.9;
 }
- .form-fields {
-  margin:15px 8px;
-}
+
 .btn-submit {
 margin-bottom:8px;
 color:white;
+font-size: 13px;
+font-weight: bold;
+background-color: #2D9CDB;
+border-radius: 18px;
+padding: 2px;
+margin: 15px;
+opacity: 0.9;
 }
+
+ .form-fields {
+  margin:15px 8px;
+}
+
 .desc {
   border: 2px solid rgb(240,240,240);
   margin-bottom:15px;
