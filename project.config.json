@@ -52,6 +52,11 @@
 				},
 				{
 					"id": -1,
+					"name": "Create A Machine Page",
+					"pathName": "pages/new/new"
+          },
+        {
+          "id": -1,
 					"name": "main",
 					"pathName": "pages/main/main"
 				}

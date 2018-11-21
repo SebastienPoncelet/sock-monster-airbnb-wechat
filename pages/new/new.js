@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  formSubmit: function(e) {
+    console.log(e)
+    
   }
 })
