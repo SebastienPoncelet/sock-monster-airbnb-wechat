@@ -1,13 +1,14 @@
 /* pages/show/show.wxss */
 
 .image {
-  height: 150px;
+  height: 200px;
+  width: 270px;
   background-size: cover !important;
   background-position: center;
   color: white;
   position: relative;
   border-radius: 6px;
-  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
 .avatar {
@@ -17,7 +18,7 @@
   margin: 20px;
   position: absolute;
   right: 10px;
-  top: 175px;
+  top: 200px;
 
 }
 
@@ -28,7 +29,7 @@
 }
 
 .machine-info .machine-name {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 22px;
    padding: 5px;
 
@@ -47,14 +48,53 @@
 
 .price {
   font-size: 20px;
-  position: absolute;
-  right: 120px;
-  font-weight: bold;
-
+  font-weight: bolder;
+  padding: 15px;
 }
-.book-button {
+
+.per-night {
+  font-size: 12px;
+}
+
+/* .book-button {
   width: 280px;
   padding: 0 20px;
   position: absolute;
   bottom: 56px;
+} */
+
+.book-button {
+  background-color: #27AE60;
+  width: 140px;
+  border-radius: 18px;
+  text-align: center;
+  padding: 9px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 15px;
+  opacity: 0.9;
+}
+
+.book-button:hover {
+  opacity: 1;
+}
+
+.fixed-bar {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-around;
+  display: flex;
+  width: 100vw;
+  border-top: 2px solid #F0F0F0;
+
+}
+
+.container {
+  display: flex;
+  flex-direction:column;
+  position: relative;
+    padding-top: 0;
+
 }
