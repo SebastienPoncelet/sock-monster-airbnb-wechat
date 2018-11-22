@@ -8,16 +8,17 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"autoAudits": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.0",
-	"appid": "wx84bcefd12377ba30",
-	"projectname": "sock-monster-airbnb-wechat1",
+	"appid": "wxfcb055108f121b7e",
+	"projectname": "sock-monster-2",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-	"isGameTourist": false,
+	"scripts": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -32,70 +33,11 @@
 			"list": []
 		},
 		"game": {
-			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": 6,
-			"list": [
-				{
-					"id": -1,
-					"name": "Show Page",
-					"pathName": "pages/show/show",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "Index Page",
-					"pathName": "pages/index/index",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "Create A Machine Page",
-					"pathName": "pages/new/new",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "main",
-					"pathName": "pages/main/main",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "Main",
-					"pathName": "pages/main/main",
-					"query": ""
-				},
-				{
-					"id": -1,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-					"name": "profile",
-					"pathName": "pages/profile/profile"
-=======
-					"name": "show page",
-					"pathName": "pages/show/show"
->>>>>>> 9b2e1b116ca5bcfdb1db8701290a1d5401c49ec4
-=======
-
-					"name": "show page",
-					"pathName": "pages/show/show"
->>>>>>> 29da4c2e8b73f3f81c3ee9644cd8a428bd5c188a
-=======
-					"name": "show page",
-					"pathName": "pages/show/show",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "Profile",
-					"pathName": "pages/profile/profile"
->>>>>>> 35c1d9ccea376740b8416ea5c97772408e4592f0
-				}
-			]
+			"current": -1,
+			"list": []
 		}
 	}
 }
