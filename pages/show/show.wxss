@@ -42,7 +42,7 @@
   width: 100%;
 }
 .green-buttons .machine-sock-count {
-  border: 1px solid #8DC9B8;
+  border: 1px solid #1D3557;
   padding: 12px;
   font-size: 15px;
   border-radius: 18px;
@@ -55,7 +55,7 @@
 }
 
 .green-buttons .message {
-  border: 1px solid #8DC9B8;
+  border: 1px solid #1D3557;
   padding: 11px;
   font-size: 15px;
   border-radius: 18px;
@@ -64,7 +64,7 @@
   text-align: center;
   /* color: #484848; */
   color: white;
-  background-color: #8DC9B8;
+  background-color: #1D3557;
   /* position: relative;
   left: 236px; */
 }
@@ -72,7 +72,7 @@
 .machine-info .machine-type {
   font-size: 16px;
   padding: 5px;
-  color: #8DC9B8;
+  color: #1D3557;
   font-weight: bold;
 }
 

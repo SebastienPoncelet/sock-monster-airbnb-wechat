@@ -1,15 +1,9 @@
 <!--pages/show/show.wxml-->
-
 <view class="container">
     <!--------------IMAGE of washing machine-------------------->
     <view class="image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url{{photo}};">
     </view>
-
-
-
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
-
-
     <!--WASHING MACHINE INFO (name, address, type, avatar)------>
     <view class="machine-info">
       <view class="machine-name">{{name}} </view>
@@ -17,7 +11,6 @@
         <text>{{type}}</text>
       </view>
       <view class="machine-address">
-
         <text> <i class="fas fa-map-pin"></i>{{location}}</text>
       </view>
       <!--Avatar-->
@@ -40,17 +33,16 @@
       </view> -->
   </view>
 </view>
-
 <!---------------SOCK COUNT AND MESSAGE BUTTONS------------->
 <view class="green-buttons">
   <view class="machine-sock-count">I've eaten {{sock_count}} socks</view>
 </view>
-
 <!----------DESCRIPTION---------------------->
 <view class="machine-description">
   <text>{{description}}
         </text>
 </view>
+
   <calendar></calendar>
 
 <!---------FIXED BAR ----------------->

@@ -6,12 +6,13 @@
     "pages/edit/edit",
     "pages/main/main",
     "pages/profile/profile"
-      ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#8DC9B8",
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1D3557",
     "navigationBarTitleText": "Sock Monster",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
 
   },
   "tabBar": {

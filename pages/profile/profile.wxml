@@ -32,6 +32,7 @@
           <view class="card-description">
           <!--machine name -->
             <view class="h2">{{machine.name}}</view>
+              <text class="dates">Dates booked for</text>
           </view>
         </view>
           <view class="card-footer">
@@ -45,6 +46,7 @@
           <view class="card-description">
           <!--machine name -->
             <view class="h2">{{machine.name}}</view>
+       <text class="dates">Dates booked for</text>
           </view>
         </view>
           <view class="card-footer">
@@ -58,6 +60,7 @@
           <view class="card-description">
           <!--machine name -->
             <view class="h2">{{machine.name}}</view>
+        <text class="dates">Dates booked for</text>
           </view>
         </view>
           <view class="card-footer">
@@ -73,8 +76,6 @@
 </view>
         <!-------Name------------->
         </view>
-</view>
-
-
+      </view>
 
     

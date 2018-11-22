@@ -7,10 +7,6 @@
   color: #484848;
 }
 
-.weui-tab__panel {
-  color: red;
-}
-
 .weui-navbar__title {
   color:#484848;
 }
@@ -48,7 +44,7 @@
 }
 
 .tab .active {
-  border-bottom: 2px solid #8DC9B8;
+  border-bottom: 2px solid #1D3557;
 }
 
 .cards {
@@ -100,9 +96,6 @@
   font-size: 14px;
 }
 
-
-
-
  .card-description .h2 {
   font-size: 20px;
   padding: 10px;
@@ -115,7 +108,7 @@
   font-size: 14px;
   padding: 14px;
   /* color: #808080; */
-  color: #8DC9B8;
+  color: #1D3557;
   }
 
 .card-footer {
@@ -126,6 +119,18 @@
   justify-content: space-between;
   align-items: center
 }
+
+.card-description .dates {
+font-size: 14px;
+  padding: 8px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 9px;
+  left: 10px;
+}
+
 
 .card-footer .status-approved {
   background-color: #27AE60;

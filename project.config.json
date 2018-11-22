@@ -70,6 +70,21 @@
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+					"name": "profile",
+					"pathName": "pages/profile/profile"
+=======
+					"name": "show page",
+					"pathName": "pages/show/show"
+>>>>>>> 9b2e1b116ca5bcfdb1db8701290a1d5401c49ec4
+=======
+
+					"name": "show page",
+					"pathName": "pages/show/show"
+>>>>>>> 29da4c2e8b73f3f81c3ee9644cd8a428bd5c188a
+=======
 					"name": "show page",
 					"pathName": "pages/show/show",
 					"query": ""
@@ -78,6 +93,7 @@
 					"id": -1,
 					"name": "Profile",
 					"pathName": "pages/profile/profile"
+>>>>>>> 35c1d9ccea376740b8416ea5c97772408e4592f0
 				}
 			]
 		}
