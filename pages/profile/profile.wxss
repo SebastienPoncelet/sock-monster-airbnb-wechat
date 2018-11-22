@@ -8,7 +8,9 @@
 }
 
 .weui-navbar__slider {
-  width: 100px;
+  width: 50%;
+  background-color: #1D3557;
+
 }
 
 .weui-navbar__title {
