@@ -70,8 +70,9 @@
 				},
 				{
 					"id": -1,
-					"name": "profile",
-					"pathName": "pages/profile/profile"
+
+					"name": "show page",
+					"pathName": "pages/show/show"
 				}
 			]
 		}
