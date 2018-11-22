@@ -1,8 +1,8 @@
 /* pages/show/show.wxss */
 
 .image {
-  height: 200px;
-  width: 270px;
+  height: 250px;
+  width: 90%;
   background-size: cover !important;
   background-position: center;
   color: white;
@@ -13,20 +13,20 @@
 }
 
 .avatar {
-  width: 130rpx;
-  height: 130rpx;
+  width: 160rpx;
+  height: 160rpx;
   border-radius: 50%;
   margin: 20px;
   position: absolute;
-  right: 10px;
-  top: 226px;
-
+  right: 23px;
+  top: 273px;
 }
 
 .machine-info {
-  margin: 20px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
+  width: 85%;
 }
 
 .machine-info .machine-name {
@@ -36,17 +36,52 @@
    color: #484848;
 }
 
+.green-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.green-buttons .machine-sock-count {
+  border: 1px solid #8DC9B8;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 18px;
+  margin: 15px 0px;
+  width: 38%;
+  text-align: center;
+  color: #484848;
+  /* position: absolute;
+  top: 340px; */
+}
+
+.green-buttons .message {
+  border: 1px solid #8DC9B8;
+  padding: 11px;
+  font-size: 15px;
+  border-radius: 18px;
+  margin: 15px 0px;
+  width: 30%;
+  text-align: center;
+  /* color: #484848; */
+  color: white;
+  background-color: #8DC9B8;
+  /* position: relative;
+  left: 236px; */
+}
+
 .machine-info .machine-type {
-  font-size: 14px;
+  font-size: 16px;
   padding: 5px;
   color: #8DC9B8;
   font-weight: bold;
 }
 
-.machine-info .machine-description {
-  font-size: 13px;
-  font-weight: lighter;
+.machine-description {
+  font-size: 14px;
+  font-weight: normal;
   padding: 5px;
+  color: #484848;
+  margin: 18px;
 }
 
 .machine-info .machine-address {
@@ -55,10 +90,10 @@
     color: #808080;
 }
 
-.price {
+.fixed-bar .price {
   font-size: 20px;
-  font-weight: bolder;
-  padding: 15px;
+  font-weight: bold;
+  padding: 27px;
   color: #484848;
 }
 
@@ -78,9 +113,9 @@
   width: 140px;
   border-radius: 18px;
   text-align: center;
-  padding: 9px;
+  padding: 15px;
   color: white;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
   margin: 15px;
   opacity: 0.9;
@@ -100,9 +135,3 @@
   border-top: 2px solid #F0F0F0;
 }
 
-.container {
-  display: flex;
-  flex-direction:column;
-  position: relative;
-  padding-top: 0;
-}
