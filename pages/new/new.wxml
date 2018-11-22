@@ -9,7 +9,7 @@
   <input value='{{ price }}' class="desc" name="price" placeholder="Daily Rate in $$$" />
 
   <picker mode="date" value="{{availability}}" name="availability" start="2018-11-01" end="2019-0-01" bindchange="bindDateChange">
-    <view class="desc">
+    <view class="availability">
       Availability: {{date}}
     </view>
   </picker>

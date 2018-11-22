@@ -21,9 +21,9 @@
 .avatar {
   position: absolute;
   right: 33px;
-  top: 157px;
-  width: 141rpx;
-  height: 141rpx;
+  top: 143px;
+  width: 24%;
+  height: 39%;
   border-radius: 50%;
   border: 2px solid white;
   margin: 7px;
