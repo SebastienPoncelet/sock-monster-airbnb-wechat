@@ -37,6 +37,26 @@ Page({
     });
   },
 
+  onLoad: function (options) {
+
+    let that = this;
+
+    // Get api data
+    wx.request({
+      url: `https://sock-monster.herokuapp.com/api/v1/users/${options.id}`,
+      method: 'GET',
+      success(res) {
+        const machine = res.data;
+
+        // Update local data
+        that.setData(
+          machine
+        );
+        wx.hideToast();
+      }
+    });
+  },
+
   /**
    * Lifecycle function--Called when page is initially rendered
    */
