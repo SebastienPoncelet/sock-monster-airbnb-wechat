@@ -6,9 +6,8 @@
     "pages/edit/edit",
     "pages/add/add",
     "pages/main/main",
-    "pages/profile/profile",
-    "utils/av-weapp-min.js"
-  ],
+    "pages/profile/profile"
+      ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#8DC9B8",
