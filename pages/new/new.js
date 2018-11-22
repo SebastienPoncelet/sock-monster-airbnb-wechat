@@ -2,6 +2,9 @@
 
 const app = getApp()
 const apiURL = app.globalData.host
+const AV = require('../../utils/av-weapp-min.js');
+
+// Calling the av-weapp-min.js file which is Leancloud's SDK
 
 
 Page({
@@ -20,17 +23,22 @@ Page({
 
   //Choose Image Function
 
-  chooseImage() {
+  takePhoto: function () {
     wx.chooseImage({
-      count: 1, // Default 9
-      sizeType: ['compressed'], // Can specify whether it is the original or compressed image, both have defaults
-      sourceType: ['album', 'camera'], // Can specify whether the source is an album or camera, both have defaults
+      count: 1,
+      sizeType: ['original', 'compressed'],
+      sourceType: ['album', 'camera'],
       success: function (res) {
-        // Returns the local file path list for the selected photo, tempFilePath can be used as the img tag's src attribute to display the image
-        var tempFilePaths = res.tempFilePaths
+        let tempFilePath = res.tempFilePaths[0];
+        new AV.File('file-name', {
+          blob: {
+            uri: tempFilePath,
+          },
+        }).save().then(
+          file => console.log(file.url())
+        ).catch(console.error);
       }
-    })
-
+    });
   },
 
   // New Machine Submission

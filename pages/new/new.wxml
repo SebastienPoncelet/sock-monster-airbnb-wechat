@@ -14,7 +14,7 @@
     </view>
   </picker>
 
-  <button class="btn-upload" formType="submit">Upload an Image</button>
+  <button class="btn-upload" bindtap="takePhoto">Upload an Image</button>
   <button class="btn-submit" formType="submit">Save</button>
 </form>
 </view>

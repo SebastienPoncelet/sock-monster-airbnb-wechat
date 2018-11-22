@@ -1,17 +1,19 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/show/show",
     "pages/new/new",
     "pages/edit/edit",
     "pages/main/main",
     "pages/profile/profile"
+
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#1D3557",
     "navigationBarTitleText": "Sock Monster",
     "navigationBarTextStyle":"white"
+
   },
   "tabBar": {
     "backgroundColor": "#FFFFFE",
