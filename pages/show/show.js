@@ -20,11 +20,12 @@ Page({
       url: `https://sock-monster.herokuapp.com/api/v1/machines/${options.id}`,
       method: 'GET',
       success(res) {
-        const machine = res.data;
-  
+        const user = res.data;
+
+
         // Update local data
         that.setData(
-          machine
+          user
         );
         wx.hideToast();
       }
@@ -35,7 +36,8 @@ Page({
    * Lifecycle function--Called when page is initially rendered
    */
   onReady() {
-   
+    this.setData(app.globalData)
+    console.log("voila les global data", globalData)
   },
 
   /**
