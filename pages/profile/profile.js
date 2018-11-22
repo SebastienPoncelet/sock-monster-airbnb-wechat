@@ -9,7 +9,7 @@ Page({
    * Page initial data
    */
   data: {
-    tabs: ["My Bookings", "My Reservations"],
+    tabs: ["My Reservations", "My Bookings"],
     activeIndex: 1,
     sliderOffset: 0,
     sliderLeft: 0

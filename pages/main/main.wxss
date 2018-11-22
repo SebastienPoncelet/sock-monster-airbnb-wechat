@@ -41,7 +41,7 @@
   font-size: 14px;
   padding: 14px;
   /* color: #808080; */
-  color: #8DC9B8;
+  color: #1D3557;
   }
 
 .card-footer {
@@ -64,6 +64,7 @@ font-size: 14px;
   top: 18px;
   left: 17px;
 }
+
 
 /* .title {
   font-weight: bold;

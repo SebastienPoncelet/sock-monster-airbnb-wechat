@@ -9,9 +9,9 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#8DC9B8",
+    "navigationBarBackgroundColor": "#1D3557",
     "navigationBarTitleText": "Sock Monster",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   },
   "tabBar": {
     "backgroundColor": "#FFFFFE",
