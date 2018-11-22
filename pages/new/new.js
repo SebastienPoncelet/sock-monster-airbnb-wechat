@@ -8,6 +8,18 @@ const apiURL = app.globalData.host
 
 Page({
 
+  data: {
+    date: '2018-09-01',
+  },
+
+// Date Picker
+  bindDateChange: function (e) {
+    console.log('picker: date choosen', e.detail.value)
+    this.setData({
+      date: e.detail.value
+    })
+  },
+
   //Choose Image Function
 
   chooseImage() {
@@ -46,6 +58,7 @@ Page({
     let userInfo = app.globalData.userInfo
     let userId = app.globalData.userId
     console.log("userInfo", userInfo)
+    console.log(availability)
 
     let machine = {
       "name": name,
@@ -74,18 +87,17 @@ Page({
     });
 
   },
-
+ 
   /**
    * Page initial data
    */
-  data: {
-
-  },
-
+ 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+  
+
   },
 
   /**
