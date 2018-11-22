@@ -37,7 +37,9 @@
         </view>
           <view class="card-footer">
             <text class='name'>INFORMATION</text>
-            <text class="status-pending">Pending</text>
+            <view class="button">
+              <text class="status-pending">Pending</text>
+            </view>
           </view>
       </view>
 
@@ -51,7 +53,9 @@
         </view>
           <view class="card-footer">
             <text class='name'>INFORMATION</text>
+            <view class="button">
             <text class="status-approved">Approved</text>
+            </view>
           </view>
       </view>
 
@@ -65,7 +69,9 @@
         </view>
           <view class="card-footer">
             <text class='name'>INFORMATION</text>
-            <text class="status-denied">Denied</text>
+            <view class="button">
+              <text class="status-denied">Denied</text>
+            </view>
           </view>
       </view>
     </view>

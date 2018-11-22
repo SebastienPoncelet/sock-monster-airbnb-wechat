@@ -7,6 +7,10 @@
   color: #484848;
 }
 
+.weui-navbar__slider {
+  width: 100px;
+}
+
 .weui-navbar__title {
   color:#484848;
 }
@@ -109,7 +113,7 @@
   padding: 14px;
   /* color: #808080; */
   color: #1D3557;
-  margin: 5%;
+  margin: 0%;
   }
 
 .card-footer {
