@@ -2,7 +2,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  margin: 17px;
+  margin: 19px;
   height: 40vh;
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
   border-radius: 6px;
@@ -20,26 +20,28 @@
 
 .avatar {
   position: absolute;
-  left: 10px;
-  top: 10px;
+  right: 33px;
+  top: 169px;
   width: 100rpx;
   height: 100rpx;
   border-radius: 50%;
   border: 2px solid white;
+  margin: 7px;
 }
 
  .card-description .h2 {
-  font-size: 16px;
-  padding: 15px;
+  font-size: 20px;
+  padding: 10px;
   position: absolute;
-  top: 50px;
+  top: 157px;
   font-weight: bold;
 }
 
 .card-footer .sock_count {
   font-size: 14px;
-  padding: 8px;
-  color: #808080;
+  padding: 14px;
+  /* color: #808080; */
+  color: #8DC9B8;
   }
 
 .card-footer {
@@ -52,19 +54,23 @@
 
 }
 
-.card-footer .price {
+.card-description .price {
 font-size: 14px;
   padding: 8px;
-  color: #808080;
-
+  color: white;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 18px;
+  left: 17px;
 }
 
-.title {
+/* .title {
   font-weight: bold;
   text-align: center;
   margin: 10px;
   color: #484848;
-}
+} */
 
 /* .add-button {
   width: 50px;

@@ -11,7 +11,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#8DC9B8",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Sock Monster",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
