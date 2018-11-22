@@ -36,12 +36,16 @@
 			"list": []
 		},
 		"miniprogram": {
+
 			"current": 0,
+
 			"list": [
 				{
 					"id": -1,
 					"name": "profile",
+
 					"pathName": "pages/profile/profile"
+
 				}
 			]
 		}
