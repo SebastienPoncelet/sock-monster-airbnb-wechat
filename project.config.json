@@ -36,25 +36,16 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+
+			"current": 0,
+
 			"list": [
 				{
 					"id": -1,
 					"name": "profile",
-					"pathName": "pages/profile/profile",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "show",
-					"pathName": "pages/show/show",
-					"query": ""
-				},
-				{
-					"id": 2,
-					"name": "main",
-					"pathName": "pages/main/main",
-					"query": ""
+
+					"pathName": "pages/profile/profile"
+
 				}
 			]
 		}
