@@ -1,7 +1,6 @@
 <!--pages/show/show.wxml-->
 
 <view class="container">
-
     <!--------------IMAGE of washing machine-------------------->
     <view class="image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url{{photo}};">
     </view>
@@ -18,6 +17,7 @@
         <text>{{type}}</text>
       </view>
       <view class="machine-address">
+
         <text> <i class="fas fa-map-pin"></i>{{location}}</text>
       </view>
       <!--Avatar-->

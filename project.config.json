@@ -70,6 +70,7 @@
 				},
 				{
 					"id": -1,
+
 					"name": "show page",
 					"pathName": "pages/show/show"
 				}
