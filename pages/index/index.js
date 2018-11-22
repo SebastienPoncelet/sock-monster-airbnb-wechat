@@ -16,6 +16,12 @@ Page({
     this.setData({
       userInfo: userInfo
     })
+    wx.switchTab({
+      url: '/pages/main/main',
+    })
+
+
+
     // wx.setStorage({
     //   key: 'userInfo',
     //   data: userInfo,

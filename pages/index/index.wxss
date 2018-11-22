@@ -11,7 +11,6 @@
   margin: 20rpx;
   border-radius: 50%;
   margin-top: 50%;
-  
 }
 
 .userinfo-nickname {
@@ -19,10 +18,8 @@
 }
 
 .btn {
+  margin-top:75%;
   margin-bottom:15px;
-}
-.wxinf {
-  align-content: center;
 }
 
 .banner {
@@ -35,7 +32,7 @@
   align-items: center;
   justify-content: center;
   flex-direction:column;
-  background-position: center -30px;
+  background-position: center 0px;
   background-repeat: no-repeat;
 }
 
@@ -54,8 +51,10 @@ button {
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
+  line-height:11px;
 }
-.banner .tag {
+
+.tag {
   font-size: 25px;
   font-weight: 300;
   color: rgb(255, 255, 255);
