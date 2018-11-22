@@ -1,8 +1,13 @@
 /* pages/show/show.wxss */
 
 .image {
+<<<<<<< HEAD
   height: 250px;
   width: 90%;
+=======
+  height: 200px;
+  width: 380px;
+>>>>>>> 76532425a77a6bbfef99302f24bf512f9d98c29e
   background-size: cover !important;
   background-position: center;
   color: white;

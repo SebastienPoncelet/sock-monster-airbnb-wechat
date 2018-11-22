@@ -1,7 +1,3 @@
-<!-- <view class="title">
-  <text>Sock Monster Selection</text>
-</view> -->
-
  <!--CARDS-->
 <view class="cards">
   <block wx:for="{{machines}}" wx:for-item="machine" >
