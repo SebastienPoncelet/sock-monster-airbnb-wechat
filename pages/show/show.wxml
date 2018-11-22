@@ -40,9 +40,12 @@
 
       This is such a fantastic washing machine, I really recommend it, it has changed my sock washing ways
 
-           This is such a fantastic washing machine, I really recommend it, it has changed my sock washing ways
+           does this show up This is such a fantastic washing machine, I really recommend it, it has changed my sock washing ways
       </text>
   </view>
+
+  <calendar></calendar>
+  
 
     <!---------FIXED BAR ----------------->
   <view class="fixed-bar">
