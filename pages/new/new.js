@@ -3,6 +3,8 @@
 const app = getApp()
 const apiURL = app.globalData.host
 
+// Calling the av-weapp-min.js file which is Leancloud's SDK
+
 
 Page({
 

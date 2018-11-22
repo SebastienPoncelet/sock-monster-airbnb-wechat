@@ -23,5 +23,11 @@ Page({
     //   fail: function(res) {},
     //   complete: function(res) {},
     // })
-  }
+  },
+
+  // Implementing Leancloud upload from camera
+
+
+
+
 })

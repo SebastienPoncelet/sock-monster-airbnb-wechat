@@ -1,6 +1,16 @@
 //app.js
+const AV = require('./utils/av-weapp-min.js')
 
 const app = getApp()
+// Calling the av-weapp-min.js file which is Leancloud's SDK
+// Separate files to save app_Id and app_key as recommended in tutorial
+const config = require('./key')
+
+// Initialization of the app
+AV.init({
+  appId: config.appId,
+  appKey: config.appSecret,
+});
 
 App({
 
