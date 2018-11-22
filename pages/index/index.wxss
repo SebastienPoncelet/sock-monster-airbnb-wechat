@@ -1,8 +1,8 @@
 /**index.wxss**/
 .userinfo {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  margin-top: 50%;
 }
 
 .userinfo-avatar {
@@ -10,12 +10,55 @@
   height: 128rpx;
   margin: 20rpx;
   border-radius: 50%;
+  margin-top: 50%;
+  
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #ffffff;
 }
 
-.usermotto {
-  margin-top: 200px;
+.btn {
+  margin-bottom:15px;
+}
+.wxinf {
+  align-content: center;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  background-position: center -30px;
+  background-repeat: no-repeat;
+}
+
+button {
+  width: 80%;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+	color: #ffffff;
+  background: none;
+}
+
+.h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+.banner .tag {
+  font-size: 25px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  margin-bottom: 30px;
 }

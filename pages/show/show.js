@@ -20,14 +20,12 @@ Page({
       url: `https://sock-monster.herokuapp.com/api/v1/machines/${options.id}`,
       method: 'GET',
       success(res) {
-        console.log("je screen les data de l'api", res)
         const machine = res.data;
   
         // Update local data
         that.setData(
           machine
         );
-        console.log("j'écris les data", machine)
         wx.hideToast();
       }
     });

@@ -1,17 +1,21 @@
 
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
+
+  <view class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.5) 0%, rgba(0,36,61,0.5) 50%), url('/commons/assets/image/sock-monster.jpg');">
+    <view class="banner-content">
+      <view class="h1">The Sock Monster</view>
+      <view class="tag">Hungry Washing Machines</view>
+    </view>
+    
+  <view class="wxinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view><button open-type="getUserInfo" bindgetuserinfo="getUserInfo">Login</button></view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+
+    <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="btn">Login</button>
+    <button bindtap='goMachine' class="btn">Create a Monster</button>
   </view>
-  <button bindtap='goMachine'>Create a Monster</button>
-</view>
 

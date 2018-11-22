@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 6,
 			"list": [
 				{
 					"id": -1,
@@ -70,9 +70,14 @@
 				},
 				{
 					"id": -1,
-
 					"name": "show page",
-					"pathName": "pages/show/show"
+					"pathName": "pages/show/show",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "Profile",
+					"pathName": "pages/profile/profile"
 				}
 			]
 		}
