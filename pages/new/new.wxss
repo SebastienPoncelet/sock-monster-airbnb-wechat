@@ -2,18 +2,18 @@
 .h1 {
   font-weight: bold;
   text-align: center;
-  margin: 10px;
+  margin: 17px;
   color: #484848;
   padding: 2px;
 }
 .btn-upload {
  margin-bottom:8px;
 color:white;
-font-size: 13px;
+font-size: 15px;
 font-weight: bold;
 background-color: #F2994A;
 border-radius: 18px;
-padding: 2px;
+padding: 5px;
 margin: 15px;
 opacity: 0.9;
 }
@@ -21,29 +21,34 @@ opacity: 0.9;
 .btn-submit {
 margin-bottom:8px;
 color:white;
-font-size: 13px;
+font-size: 15px;
 font-weight: bold;
 background-color: #2D9CDB;
 border-radius: 18px;
-padding: 2px;
+padding: 5px;
 margin: 15px;
 opacity: 0.9;
 }
 
+.btn-submit:hover {
+  opacity: 1;
+}
+
+.btn-upload:hover {
+  opacity: 1;
+}
  .form-fields {
   margin:15px 8px;
 }
 
 .desc {
-  border: 2px solid rgb(240,240,240);
+  /* border: 2px solid rgb(240,240,240); */
   margin-bottom:15px;
   padding: 5px;
-  font-size: 14px;
-}
+  font-size: 15px;
+  color: #484848;
+  border-bottom: 2px solid #F0F0F0;
+  width: 80%;
+  margin: 20px;
 
-.blue {
-  background-color: rgb(34,123,156);
-}
-.red {
-  background-color:rgb(200,200,200);
 }

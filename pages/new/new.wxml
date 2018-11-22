@@ -4,13 +4,9 @@
 <form bindsubmit="bindSubmit" bindreset="formReset">
   <input value="{{ name }}" class="desc" name="name" placeholder="Enter a Name" />
   <input value='{{ description }}' class="desc" name="description" placeholder="Enter a Description" />
-<input value='{{ socks }}' class="desc" name="socks" placeholder="# of Socks Eaten" />
-<input value='{{ address }}' class="desc" name="address" placeholder="Enter your Address" />
-
-<input value='{{ price }}' class="desc" name="price" placeholder="Daily Rate in $$$" />
-
-<!-- <input value='{{ availability }}' class="desc" name="availability" placeholder="Date Available" /> -->
-
+  <input value='{{ socks }}' class="desc" name="socks" placeholder="# of Socks Eaten" />
+  <input value='{{ address }}' class="desc" name="address" placeholder="Enter your Address" />
+  <input value='{{ price }}' class="desc" name="price" placeholder="Daily Rate in $$$" />
 
   <picker mode="date" value="{{availability}}" name="availability" start="2018-11-01" end="2019-0-01" bindchange="bindDateChange">
     <view class="desc">
@@ -18,9 +14,7 @@
     </view>
   </picker>
 
-
   <button class="btn-upload" formType="submit">Upload an Image</button>
-
   <button class="btn-submit" formType="submit">Save</button>
 </form>
 </view>
