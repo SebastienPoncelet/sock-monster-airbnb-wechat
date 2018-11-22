@@ -23,6 +23,22 @@
       <!--Avatar-->
       <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/users/tgenaitay');"></view>
     </view>
+  
+
+    <!---------FIXED BAR ----------------->
+  <view class="fixed-bar">
+    <!--Price-->
+    <view class="price">
+      <text>$5</text>
+      <text class="per-night"> /day</text>
+    </view>
+    <!--Book button -->
+    <view class="book-button" >Request to Book</view>
+      <!-- <view class="book-button" >
+        <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+            disabled="{{disabled}}" bindtap="primary">Book</button>
+      </view> -->
+  </view>
 </view>
 
 <!---------------SOCK COUNT AND MESSAGE BUTTONS------------->
@@ -36,6 +52,7 @@
   <text>{{description}}
         </text>
 </view>
+  <calendar></calendar>
 
 <!---------FIXED BAR ----------------->
 <view class="fixed-bar">
