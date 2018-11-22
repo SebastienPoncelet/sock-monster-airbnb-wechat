@@ -9,7 +9,7 @@ App({
     //   console.log("status", globalData)
     // }
 
-    const host = 'http://localhost:3000/'
+    const host = 'https://sock-monster.herokuapp.com/'
     console.log('processing to login')
     wx.login({
       success: (res) => {
@@ -34,8 +34,8 @@ App({
     })
   },
   globalData: {
-    host: "http://localhost:3000/api/v1/"
-    
+    host: "https://sock-monster.herokuapp.com/api/v1/"
+    // host: ""
   }
   
 })
