@@ -1,7 +1,14 @@
 <!--pages/profile/profile.wxml-->
 
   <!-------TAB BAR------------->
-
+<view class="avatar-name">
+        <!-------AVATAR------------->
+        <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/users/tgenaitay');"></view>
+        <!-------Name------------->
+          <view class="name">Name 
+          </view>
+        </view>
+        
   <!-----------------MY BOOKINGS---------->
         <view class="weui-tab">
             <view class="weui-navbar">
@@ -16,13 +23,7 @@
                 <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
 
 
-      <view class="avatar-name">
-        <!-------AVATAR------------->
-        <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/users/tgenaitay');"></view>
-        <!-------Name------------->
-          <view class="name">Name 
-          </view>
-        </view>
+      
 
      <!------cards------------->
     <view class="cards">
@@ -69,14 +70,9 @@
 
   <!-----------------MY RESERVATIONS---------->
                 <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
-                 <view class="avatar-name">
-        <!-------AVATAR------------->
-        <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/users/tgenaitay');"></view>
+</view>
         <!-------Name------------->
-          <view class="name">Name</view>
         </view>
-      </view>
-    </view>
 </view>
 
 
