@@ -70,8 +70,13 @@
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "profile",
 					"pathName": "pages/profile/profile"
+=======
+					"name": "show page",
+					"pathName": "pages/show/show"
+>>>>>>> 9b2e1b116ca5bcfdb1db8701290a1d5401c49ec4
 				}
 			]
 		}

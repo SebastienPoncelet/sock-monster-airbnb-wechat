@@ -1,55 +1,65 @@
 <!--pages/show/show.wxml-->
 
 <view class="container">
-  <!--------------IMAGE of washing machine-------------------->
-  <view class="image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://picsum.photos/200/300/?random');">
-  </view>
 
+<<<<<<< HEAD
   <!--WASHING MACHINE INFO (name, address, type, avatar)------>
   <view class="machine-info"> 
       <view class="machine-name">
         <text>Best machine ever</text>
       </view>
+=======
+    <!--------------IMAGE of washing machine-------------------->
+    <view class="image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url{{photo}};">
+    </view>
+
+
+
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
+
+
+    <!--WASHING MACHINE INFO (name, address, type, avatar)------>
+    <view class="machine-info">
+      <view class="machine-name">{{name}} </view>
+>>>>>>> 9b2e1b116ca5bcfdb1db8701290a1d5401c49ec4
       <view class="machine-type">
-        <text>Washing Machine Type</text>
+        <text>{{type}}</text>
       </view>
       <view class="machine-address">
+<<<<<<< HEAD
           <text>221b Baker Street, North London</text>
+=======
+        <text> <i class="fas fa-map-pin"></i>{{location}}</text>
+>>>>>>> 9b2e1b116ca5bcfdb1db8701290a1d5401c49ec4
       </view>
       <!--Avatar-->
       <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/users/tgenaitay');"></view>
-      </view>
-  </view>
-  
-    <!---------------SOCK COUNT AND MESSAGE BUTTONS------------->
-    <view class="green-buttons">
-        <view class="machine-sock-count">I've eaten 99 socks</view>
-        <view class="message">Message</view>
     </view>
+</view>
 
-    <!----------DESCRIPTION---------------------->
-  <view class="machine-description">
-      <text>This is such a fantastic washing machine, I really recommend it, it has changed my sock washing ways
+<!---------------SOCK COUNT AND MESSAGE BUTTONS------------->
+<view class="green-buttons">
+  <view class="machine-sock-count">I've eaten {{sock_count}} socks</view>
+  <view class="message">Message</view>
+</view>
 
-      This is such a fantastic washing machine, I really recommend it, it has changed my sock washing ways
+<!----------DESCRIPTION---------------------->
+<view class="machine-description">
+  <text>{{description}}
+        </text>
+</view>
 
-      This is such a fantastic washing machine, I really recommend it, it has changed my sock washing ways
-
-           This is such a fantastic washing machine, I really recommend it, it has changed my sock washing ways
-      </text>
+<!---------FIXED BAR ----------------->
+<view class="fixed-bar">
+  <!--Price-->
+  <view class="price">
+    <text>${{price}}</text>
+    <text class="per-night"> /day</text>
   </view>
-
-    <!---------FIXED BAR ----------------->
-  <view class="fixed-bar">
-    <!--Price-->
-    <view class="price">
-      <text>$5</text>
-      <text class="per-night"> /day</text>
-    </view>
-    <!--Book button -->
-    <view class="book-button" >Request to Book</view>
-      <!-- <view class="book-button" >
-        <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
-            disabled="{{disabled}}" bindtap="primary">Book</button>
-      </view> -->
-  </view>
+  <!--Book button -->
+  <view class="book-button">Request to Book</view>
+  <!-- <view class="book-button" >
+          <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+              disabled="{{disabled}}" bindtap="primary">Book</button>
+        </view> -->
+</view>
