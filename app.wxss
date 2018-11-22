@@ -9,7 +9,5 @@
   box-sizing: border-box;
 } 
 
-
-
-
+@import 'commons/style/weui.wxss';
 
