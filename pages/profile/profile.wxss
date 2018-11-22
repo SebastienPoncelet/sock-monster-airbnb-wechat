@@ -9,7 +9,7 @@
 
 .weui-navbar__slider {
   width: 50%;
-  background-color: #1D3557;
+  background-color: #092851;
 
 }
 
@@ -23,6 +23,7 @@
   border-radius: 50%;
   position: relative;
   top : 70px;
+  background-size: 100%;
 }
 
 .name {
@@ -50,18 +51,18 @@
 }
 
 .tab .active {
-  border-bottom: 2px solid #1D3557;
+  border-bottom: 2px solid #092851;
 }
 
 .cards {
-  margin-top: 58px;
+  margin-top: 6%;
 }
 .card {
   display: flex;
   flex-direction: column;
   margin: 19px;
   height: 30vh;
-  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.2);
   border-radius: 6px;
   position: relative;
 
