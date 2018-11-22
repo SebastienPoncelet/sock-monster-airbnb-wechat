@@ -1,18 +1,19 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/show/show",
     "pages/new/new",
     "pages/edit/edit",
     "pages/add/add",
     "pages/main/main",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "utils/av-weapp-min.js"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#8DC9B8",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "backgroundColor": "#FFFFFE",
