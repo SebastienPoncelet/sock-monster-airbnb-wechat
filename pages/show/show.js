@@ -17,7 +17,7 @@ Page({
 
     // Get api data
     wx.request({
-      url: `http://localhost:3000/api/v1/machines/${options.id}`,
+      url: `https://sock-monster.herokuapp.com/api/v1/machines/${options.id}`,
       method: 'GET',
       success(res) {
         const user = res.data;

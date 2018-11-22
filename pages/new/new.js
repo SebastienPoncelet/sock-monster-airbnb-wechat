@@ -106,8 +106,7 @@ Page({
     console.log("machine", machine)
     // Get api data
     wx.request({
-      url:'http://localhost:3000/api/v1/machines', 
-      // `https://sock-monster.herokuapp.com/api/v1/machines`,
+      url:`https://sock-monster.herokuapp.com/api/v1/machines`,
       method: 'POST',
       data: {machine},
       success(res) {
