@@ -20,7 +20,11 @@
   position: absolute;
   right: 23px;
   top: 273px;
+  background-size: 100%;
+  border: 2px solid white;
+  box-shadow: 3px 3px 12px rgba(0,0,0,0.2);
 }
+
 
 .machine-info {
   margin: 10px;

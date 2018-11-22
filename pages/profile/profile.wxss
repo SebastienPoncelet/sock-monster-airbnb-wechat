@@ -24,6 +24,8 @@
   position: relative;
   top : 70px;
   background-size: 100%;
+  border: 2px solid white;
+  box-shadow: 3px 3px 12px rgba(0,0,0,0.2);
 }
 
 .name {
@@ -42,7 +44,7 @@
   padding: 2%;
   color: #484848;
   margin-top: -11%;
- }
+}
 
 
 .tab {
