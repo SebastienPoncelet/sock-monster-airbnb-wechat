@@ -1,5 +1,20 @@
 /* pages/profile/profile.wxss */
 
+.weui-tab {
+  position: relative;
+  height: 100%;
+  top: 24px;
+  color: #484848;
+}
+
+.weui-tab__panel {
+  color: red;
+}
+
+.weui-navbar__title {
+  color:#484848;
+}
+
 .avatar {
   width: 220rpx;
   height: 220rpx;
@@ -7,24 +22,21 @@
 }
 
 .name {
-  font-size: 28px;
+  font-size: 29px;
   padding: 19px;
   color: #484848;
+  font-weight: bold;
 }
 
 .avatar-name {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 39px;
+  padding: 2%;
+  color: #484848;
+  margin-top: -15%;
  }
 
- .tabs {
-  display: flex;
-  padding: 10px 10px 0 10px;
-  color: #484848;
-  margin-bottom: 9%;
-}
 
 .tab {
   flex: 0 0 50%;
@@ -35,6 +47,9 @@
   border-bottom: 2px solid #8DC9B8;
 }
 
+.cards {
+  margin-top: 58px;
+}
 .card {
   display: flex;
   flex-direction: column;

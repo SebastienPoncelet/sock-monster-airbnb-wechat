@@ -4,7 +4,6 @@
     "pages/show/show",
     "pages/new/new",
     "pages/edit/edit",
-    "pages/add/add",
     "pages/main/main",
     "pages/profile/profile"
   ],

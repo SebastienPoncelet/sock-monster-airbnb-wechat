@@ -1,24 +1,30 @@
 <!--pages/profile/profile.wxml-->
 
-<view class="avatar-name">
-  <!-------AVATAR------------->
-  <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/users/tgenaitay');"></view>
-  <!-------Name------------->
-    <view class="name">Name 
-    </view>
-  </view>
+  <!-------TAB BAR------------->
 
-    <!------tabbar------------->
-      <view class="tabs">
-        <view class="tab active">
-          <h1>My Bookings</h1>
-        </view>
-        <view class="tab">
-          <h1>My Reservations</h1>
-        </view>
-      </view>
+  <!-----------------MY BOOKINGS---------->
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for="{{tabs}}" wx:key="*this">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
 
-        <!------cards------------->
+
+      <view class="avatar-name">
+        <!-------AVATAR------------->
+        <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/users/tgenaitay');"></view>
+        <!-------Name------------->
+          <view class="name">Name 
+          </view>
+        </view>
+
+     <!------cards------------->
     <view class="cards">
       <view class="card" bindtap='showMachine' data-id="{{machine.id}}">
         <view class="card-body" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://picsum.photos/200/300/?random');">
@@ -58,7 +64,21 @@
             <text class="status-denied">Denied</text>
           </view>
       </view>
-
     </view>
-            
-              
+  </view>
+
+  <!-----------------MY RESERVATIONS---------->
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                 <view class="avatar-name">
+        <!-------AVATAR------------->
+        <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/users/tgenaitay');"></view>
+        <!-------Name------------->
+          <view class="name">Name</view>
+        </view>
+      </view>
+    </view>
+</view>
+
+
+
+    
