@@ -1,8 +1,8 @@
 /* pages/show/show.wxss */
 
 .image {
-  height: 250px;
-  width: 90%;
+  height: 35vh;
+  width: 90vw;
   background-size: cover !important;
   background-position: center;
   color: white;
