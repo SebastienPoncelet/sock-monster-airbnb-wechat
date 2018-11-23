@@ -8,17 +8,17 @@
   margin: 5vh;
 }
 
-.btn-confirm {
+.btn-submit {
 color:white;
 font-size: 16px;
 background-color: #27AE60;
 border-radius: 18px;
 padding: 1vh;
-margin: 6vh;
+/* margin: 6vh; */
 opacity: 0.9;
 font-weight: bold;
-width:74vw;
-margin-top: 4vh;
+/* width:74vw;
+margin-top: 4vh; */
 }
 
 .summary {
@@ -137,4 +137,21 @@ font-weight: light;
   font-weight:600;
   font-size:16px;
   margin-left:6vh;
+}
+
+
+.availability {
+  margin-bottom:15px;
+  padding: 5px;
+  font-size: 18px;
+  color: #999999;
+  border-bottom: 2px solid #F0F0F0;
+  /* width: 85vw;
+  margin: 20px;
+  margin-left:2vh; */
+}
+
+.form-fields {
+  width:38vh;
+  margin:6vh;
 }
