@@ -4,7 +4,7 @@
   flex-direction: column;
   margin: 19px;
   height: 40vh;
-  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.2);
   border-radius: 6px;
 
 }
@@ -21,12 +21,13 @@
 .avatar {
   position: absolute;
   right: 33px;
-  top: 169px;
-  width: 100rpx;
-  height: 100rpx;
+  top: 143px;
+  width: 24%;
+  height: 39%;
   border-radius: 50%;
   border: 2px solid white;
   margin: 7px;
+  background-size: 100%;
 }
 
  .card-description .h2 {
@@ -41,7 +42,7 @@
   font-size: 14px;
   padding: 14px;
   /* color: #808080; */
-  color: #1D3557;
+  color: #092851;
   }
 
 .card-footer {
