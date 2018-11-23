@@ -1,0 +1,27 @@
+<!--pages/request/request.wxml-->
+
+<view class="avatar-name">
+        <!-------AVATAR------------->
+        <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdojgKGd6m4ZMuj2xl9MmydcNNtQdOA0OY6LmKeEkPAU8BRrt5');"></view>
+        <!-------Name------------->
+          <view class="name">Name 
+          </view>
+        </view>
+
+
+  <!--------------IMAGE of washing machine-------------------->
+    <view class="image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('{{photo}}');">
+    </view>
+
+
+<view class="infoview">
+  <view class="info"><text>Dates booked for</text></view>
+    <view class="info"><text>Price/day</text></view>
+</view>
+
+
+<view class="button">
+    <view class="confirm" bindtap="confirmation">Confirm</view>
+    <view class="deny">Deny</view>
+  </view>
+

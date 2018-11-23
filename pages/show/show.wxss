@@ -116,7 +116,7 @@
 } */
 
 .book-button {
-  background-color: #EB5757;
+  background-color: #27AE60;
   width: 140px;
   border-radius: 18px;
   text-align: center;
