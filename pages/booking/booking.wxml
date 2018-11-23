@@ -32,9 +32,9 @@
   </form>
 </view>
 
-<view>
+<!-- <view>
   <button class="btn-confirm" bindtap="confirmation">Confirm</button>
-</view>
+</view> -->
 
 
 
