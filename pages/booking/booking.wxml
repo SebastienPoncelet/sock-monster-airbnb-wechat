@@ -9,7 +9,7 @@
   </view>
   
     <view class="summary">
-      <view class="info"><text>{{name }}</text></view>
+      <view class="info"><text>{{name}}</text></view>
       <view class="info"><text>${{price}}/day</text></view>
     </view>
 </view>
