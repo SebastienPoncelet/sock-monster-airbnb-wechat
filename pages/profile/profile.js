@@ -28,19 +28,6 @@ Page({
         });
       }
     });
-  },
-
-  tabClick: function (e) {
-    this.setData({
-      sliderOffset: e.currentTarget.offsetLeft,
-      activeIndex: e.currentTarget.id
-    });
-  },
-
-  onLoad: function (options) {
-
-    let that = this;
-
     // Get api data
     wx.request({
       url: `https://sock-monster.herokuapp.com/api/v1/users/${options.id}`,
@@ -56,6 +43,33 @@ Page({
       }
     });
   },
+
+  tabClick: function (e) {
+    this.setData({
+      sliderOffset: e.currentTarget.offsetLeft,
+      activeIndex: e.currentTarget.id
+    });
+  },
+
+  // onLoad: function (options) {
+
+  //   let that = this;
+
+  //   // Get api data
+  //   wx.request({
+  //     url: `https://sock-monster.herokuapp.com/api/v1/users/${options.id}`,
+  //     method: 'GET',
+  //     success(res) {
+  //       const machine = res.data;
+
+  //       // Update local data
+  //       that.setData(
+  //         machine
+  //       );
+  //       wx.hideToast();
+  //     }
+  //   });
+  // },
 
   /**
    * Lifecycle function--Called when page is initially rendered
@@ -112,4 +126,18 @@ Page({
     wx.stopPullDownRefresh()
   }, 
   
+  requested: function (e) {
+    console.log("machine id", this.id);
+    console.log(1, e)
+    const id = e.target.dataset.machineid;
+    console.log("data from show machine", id)
+
+    wx.navigateTo({
+      url: `../request/request?id=${id}`
+    });
+  },
+
+
+
+
 })
