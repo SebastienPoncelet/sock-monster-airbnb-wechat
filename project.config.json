@@ -37,12 +37,10 @@
 		},
 		"miniprogram": {
 			"current": 2,
-
 			"list": [
 				{
 					"id": -1,
 					"name": "profile",
-
 					"pathName": "pages/profile/profile",
 					"query": ""
 				},
@@ -56,7 +54,6 @@
 					"id": -1,
 					"name": "Index",
 					"pathName": "pages/index/index"
-
 				}
 			]
 		}
