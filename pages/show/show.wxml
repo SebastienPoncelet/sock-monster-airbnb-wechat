@@ -53,7 +53,7 @@
     <text class="per-night"> /day</text>
   </view>
   <!--Book button -->
-  <view class="book-button">Request to Book</view>
+  <view class="book-button" data-machineId="{{id}}" bindtap='showBooking' >Request to Book</view>
   <!-- <view class="book-button" >
           <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
               disabled="{{disabled}}" bindtap="primary">Book</button>
