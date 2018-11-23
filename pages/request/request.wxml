@@ -4,7 +4,7 @@
         <!-------AVATAR------------->
         <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdojgKGd6m4ZMuj2xl9MmydcNNtQdOA0OY6LmKeEkPAU8BRrt5');"></view>
         <!-------Name------------->
-          <view class="name">Name 
+          <view class="name">Renter
           </view>
         </view>
 

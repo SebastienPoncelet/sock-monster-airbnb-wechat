@@ -10,6 +10,7 @@
 .weui-navbar__slider {
   width: 50%;
   background-color: #092851;
+  margin-left: -7vh;
 
 }
 
