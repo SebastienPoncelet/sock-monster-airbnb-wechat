@@ -18,8 +18,8 @@
   border-radius: 50%;
   margin: 20px;
   position: absolute;
-  right: 23px;
-  top: 273px;
+  right: 9vh;
+  top: 37vh;
   background-size: 100%;
   border: 2px solid white;
   box-shadow: 3px 3px 12px rgba(0,0,0,0.2);

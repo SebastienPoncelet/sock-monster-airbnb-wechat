@@ -104,5 +104,12 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  }, 
+
+  // Pull down the trigger event
+  onPullDownRefresh() {
+    // Stop the dropdown refresh
+    wx.stopPullDownRefresh()
+  }, 
+  
 })
