@@ -79,6 +79,10 @@
   border-radius: 6px 6px 0 0;
 }
 
+.button {
+  color: red;
+}
+/* 
 .pending-button {
   height: 9vh;
   width: 15vh;
@@ -103,7 +107,7 @@
   top: 79%;
   color: white;
   font-size: 14px;
-}
+} */
 
  .card-description .h2 {
   font-size: 20px;
@@ -151,6 +155,8 @@ font-size: 14px;
   font-size: 14px;
   padding: 3px;
   margin: 14px;
+  width: 20%;
+  text-align: center;
 }
 
 .card-footer .status-denied {
@@ -160,6 +166,8 @@ font-size: 14px;
   font-size: 14px;
   padding: 3px;
   margin: 14px;
+  width: 20%;
+  text-align: center;
 }
 
 .card-footer .status-pending {
@@ -169,4 +177,7 @@ font-size: 14px;
   font-size: 14px;
   padding: 3px;
   margin: 14px;
+  width: 20%;
+  text-align: center;
 }
+
