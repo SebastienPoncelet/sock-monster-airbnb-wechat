@@ -62,5 +62,22 @@ Page({
    */
   onShareAppMessage: function () {
 
+  }, 
+
+  /** confirmation modal pop up */
+  confirmation: function () {
+    wx.showModal({
+      title: 'Modal title',
+      content: 'Modal content ',
+      confirmText: "Ok",
+      showCancel: false,
+      success: function (res) {
+        console.log('success');
+        wx.reLaunch({
+          url: '../../pages/main/main'
+        })
+      }
+    })
   }
+  
 })

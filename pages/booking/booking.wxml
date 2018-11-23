@@ -1,2 +1,31 @@
 <!--pages/booking/booking.wxml-->
-<text>pages/booking/booking.wxml</text>
+
+<view class="title">
+  <text>Booking Confirmation</text>
+</view>
+
+<view class="purchase-detail">
+  <view class="image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('{{photo}}');">
+      </view>
+  
+    <view class="summary">
+      <view class="info"><text>Name</text></view>
+      <view class="info"><text>23 Socks eaten</text></view>
+    </view>
+</view>
+
+  <view class="address"><text>55 Gloucester Road, New Barnet, EN5 1NB, North London</text></view>
+
+
+<view class="dates">
+  <view class="info"><text>Dates booked for</text></view>
+</view>
+
+<view class="price">
+  <view class="info"><text>$11 x 5 days</text></view>
+  <view class="total"><text>$55</text></view>
+</view>
+
+<view>
+  <button class="btn-confirm" bindtap="confirmation">Confirm</button>
+</view>
