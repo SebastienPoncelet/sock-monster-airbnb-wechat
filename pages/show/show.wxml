@@ -1,20 +1,20 @@
 <!--pages/show/show.wxml-->
 <view class="container">
     <!--------------IMAGE of washing machine-------------------->
-    <view class="image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('{{photo}}');">
+    <view class="image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('../../commons/assets/image/machine.jpg');">
     </view>
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
     <!--WASHING MACHINE INFO (name, address, type, avatar)------>
     <view class="machine-info">
       <view class="machine-name">{{name}} </view>
       <view class="machine-type">
-        <text>{{type}}</text>
+        <text>Washing Machine</text>
       </view>
       <view class="machine-address">
         <text> <i class="fas fa-map-pin"></i>{{location}}</text>
       </view>
       <!--Avatar-->
-      <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/users/tgenaitay');"></view>
+      <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('../../commons/assets/image/bean.jpg');"></view>
     </view>
   
 </view>

@@ -77,7 +77,7 @@
 }
 
 .machine-info .machine-type {
-  font-size: 16px;
+  font-size: 12px;
   padding: 5px;
   color: #1D3557;
   font-weight: bold;

@@ -2,13 +2,13 @@
 <view class="cards">
   <block wx:for="{{machines}}" wx:for-item="machine" >
     <view class="card" bindtap='showMachine' data-id="{{machine.id}}">
-          <view class="card-body" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('{{machine.photo}}');">
+          <view class="card-body" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('../../commons/assets/image/machine.jpg');">
               <view class="card-description">
               <!--machine name -->
               <!--price-->
               <text class="price">${{machine.price}}/day</text>
               <view class="h2">{{machine.name}}</view>
-              <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/users/tgenaitay');"></view>
+              <view class="avatar" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('../../commons/assets/image/bean.jpg');"></view>
               </view>
               </view>
                 <view class="card-footer">

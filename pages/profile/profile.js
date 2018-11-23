@@ -10,9 +10,22 @@ Page({
    */
   data: {
     tabs: ["My Reservations", "My Bookings"],
-    activeIndex: 1,
+    activeIndex: 0,
     sliderOffset: 0,
-    sliderLeft: 0
+    sliderLeft: 0,
+    booking: {
+      "id": 1,
+      "status": "Pending",
+      "price": 56,
+      "user_id": 1,
+      "machine_id": 1,
+      "machine": {
+        "name": "Des Buratto"
+      },
+      "user": {
+        "first_name": "Reyes Altenwerth"
+      }
+    }
   },
 
   /**
