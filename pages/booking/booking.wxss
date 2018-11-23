@@ -17,15 +17,17 @@ padding: 1vh;
 margin: 6vh;
 opacity: 0.9;
 font-weight: bold;
-width:39vh;
-margin-top: 7vh;
+width:74vw;
+margin-top: 4vh;
 }
 
 .summary {
   /* font-weight: bold; */
   font-size:18px;
   color: #092851;
-  width:16vh;
+  width:13vh;
+  text-align: center;
+  font-weight: 500;
 }
 
 .summary .info {
@@ -33,7 +35,7 @@ margin-top: 7vh;
      /* margin: 2vh;
        margin-left:7vh;
       margin-right:-1vh; */
-    padding:1vh;
+    padding:2vh;
 }
 
 .dates {
@@ -46,7 +48,7 @@ margin-top: 7vh;
 }
 
 .dates .info {
-     border-bottom: 2px solid #F0F0F0;
+     border-bottom: 2px solid #F8F8F8;
        margin: 2vh;
      margin-left:7vh;
 
@@ -54,7 +56,7 @@ margin-top: 7vh;
 }
 
 .price .info {
-       border-bottom: 2px solid #F0F0F0;
+       border-bottom: 2px solid #F8F8F8;
          margin: 2vh;
           margin-left:7vh;
 
@@ -66,12 +68,16 @@ margin-top: 7vh;
   font-size:17px;
   color: #484848;
   margin-top:7vh;
-    width:88vw;
+    width:70vw;
+    display: flex;
+    justify-content: space-between;
+  border-bottom: 2px solid #F8F8F8;
+     margin-left:7vh; 
 
 }
 
 .address {
-     border-bottom: 2px solid #F0F0F0;
+     border-bottom: 2px solid #F8F8F8;
          margin: 2vh;
 font-weight: light;
   font-size:17px;
@@ -99,13 +105,36 @@ font-weight: light;
   margin-left:3vh;
 }
 
-.price .total {
+.price .total-text {
   font-weight: bold;
-  border-bottom: 2px solid #F0F0F0;
- margin: 2vh;
-   margin-left:7vh;  
-  font-size:17px;
+  /* border-bottom: 2px solid #F8F8F8; */
+  font-size:21px;
   color: #484848;
   width:71vw;
+}
 
+.price .total-price {
+    font-weight: bold;
+  /* border-bottom: 2px solid #F8F8F8; */
+   margin-left:7vh;  
+  font-size:21px;
+  color: #484848;
+  width:71vw;
+  text-align: right;
+  margin-right:1vh;
+}
+
+
+.machine-sock-count {
+  border: 1px solid #1D3557;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 30px;
+  margin: 15px 0px;
+  width: 67vw;
+  text-align: center;
+  color: #484848;
+  font-weight:600;
+  font-size:16px;
+  margin-left:6vh;
 }

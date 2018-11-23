@@ -10,9 +10,14 @@
   
     <view class="summary">
       <view class="info"><text>Name</text></view>
-      <view class="info"><text>23 Socks eaten</text></view>
+      <view class="info"><text>$5/day</text></view>
     </view>
 </view>
+
+
+  <view class="machine-sock-count">Eaten 70{{sock_count}} Socks</view>
+
+
 
   <view class="address"><text>55 Gloucester Road, New Barnet, EN5 1NB, North London</text></view>
 
@@ -22,8 +27,9 @@
 </view>
 
 <view class="price">
-  <view class="info"><text>$11 x 5 days</text></view>
-  <view class="total"><text>$55</text></view>
+  <!-- <view class="info"><text>$11 x 5 days</text></view> -->
+  <view class="total-text"><text>Total</text></view>
+  <view class="total-price"><text>$55</text></view>
 </view>
 
 <view>

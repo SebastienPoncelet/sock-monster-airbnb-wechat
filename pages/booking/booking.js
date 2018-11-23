@@ -67,8 +67,8 @@ Page({
   /** confirmation modal pop up */
   confirmation: function () {
     wx.showModal({
-      title: 'Modal title',
-      content: 'Modal content ',
+      title: 'Congratulations!',
+      content: 'Your request has been sent to {username}',
       confirmText: "Ok",
       showCancel: false,
       success: function (res) {
