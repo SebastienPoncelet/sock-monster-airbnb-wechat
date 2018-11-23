@@ -20,10 +20,10 @@
 
 .avatar {
   position: absolute;
-  right: 33px;
-  top: 143px;
-  width: 24%;
-  height: 39%;
+  right: 8vh;
+  top: 24vh;
+  width: 21%;
+  height: 34%;
   border-radius: 50%;
   border: 2px solid white;
   margin: 7px;
@@ -34,7 +34,7 @@
   font-size: 20px;
   padding: 10px;
   position: absolute;
-  top: 157px;
+  top: 21vh;
   font-weight: bold;
 }
 

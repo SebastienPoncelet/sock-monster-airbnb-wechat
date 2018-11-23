@@ -36,7 +36,8 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -46,14 +47,23 @@
 				},
 				{
 					"id": -1,
-					"name": "New",
-					"pathName": "pages/new/new",
+
+					"name": "Main",
+					"pathName": "pages/main/main",
 					"query": ""
 				},
 				{
 					"id": -1,
-					"name": "profile",
-					"pathName": "pages/profile/profile"
+  
+					"name": "Index",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "booking",
+					"pathName": "pages/booking/booking"
+
 				}
 			]
 		}
