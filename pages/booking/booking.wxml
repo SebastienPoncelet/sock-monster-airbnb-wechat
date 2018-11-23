@@ -6,32 +6,36 @@
 
 <view class="purchase-detail">
   <view class="image" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('{{photo}}');">
-      </view>
+  </view>
   
     <view class="summary">
-      <view class="info"><text>Name</text></view>
-      <view class="info"><text>$5/day</text></view>
+      <view class="info"><text>{{name}}</text></view>
+      <view class="info"><text>${{price}}/day</text></view>
     </view>
 </view>
 
+  <view class="machine-sock-count">Eaten {{sock_count}} Socks</view>
+  <view class="address"><text>{{location}}</text></view>
+  <view class="price">
+    <view class="total-text"><text>Total</text></view>
+    <view class="total-price"><text>{{price}}</text></view>
+  </view>
 
-  <view class="machine-sock-count">Eaten 70{{sock_count}} Socks</view>
-
-
-
-  <view class="address"><text>55 Gloucester Road, New Barnet, EN5 1NB, North London</text></view>
-
-
-<view class="dates">
-  <view class="info"><text>Dates booked for</text></view>
-</view>
-
-<view class="price">
-  <!-- <view class="info"><text>$11 x 5 days</text></view> -->
-  <view class="total-text"><text>Total</text></view>
-  <view class="total-price"><text>$55</text></view>
+  <view class="form-fields">
+    <form bindsubmit="bindConfirm" bindreset="formReset">
+      <picker mode="date" value="{{availability}}" name="availability" start="2018-11-01" end="2019-0-01" bindchange="bindDateChange">
+        <view class="availability">
+          Availability: {{date}}
+        </view>
+      </picker>
+    <button class="btn-submit" formType="submit">Save</button>
+  </form>
 </view>
 
 <view>
   <button class="btn-confirm" bindtap="confirmation">Confirm</button>
 </view>
+
+
+
+
