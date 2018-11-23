@@ -12,8 +12,6 @@ Page({
   },
 
   showBooking: function (e) {
-    console.log("machine id", this.id);
-    console.log(1, e)
     const id = e.target.dataset.machineid;
     console.log("data from show machine", id)
 
@@ -32,10 +30,10 @@ Page({
     console.log("machine id", this.id)
     // Get api data
     wx.request({
-      // url: `https://sock-monster.herokuapp.com/api/v1/machines/${this.id}`,
-      url: `http://localhost:3000/api/v1/machines/${this.id}`,
+       url: `https://sock-monster.herokuapp.com/api/v1/machines/${this.id}`,
       method: 'GET',
       success(res) {
+        console.log("data from heroku", res)
         const machine = res.data.machine;
 
 
@@ -52,8 +50,6 @@ Page({
    * Lifecycle function--Called when page is initially rendered
    */
   onReady() {
-    this.setData(app.globalData)
-    console.log("voila les global data", globalData)
   },
 
   /**
