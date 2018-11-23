@@ -119,5 +119,22 @@ Page({
    */
   onShareAppMessage: function () {
 
+  }, 
+
+  /** confirmation modal pop up */
+  confirmation: function () {
+    wx.showModal({
+      title: 'Congratulations!',
+      content: 'Your request has been sent to {username}',
+      confirmText: "Ok",
+      showCancel: false,
+      success: function (res) {
+        console.log('success');
+        wx.reLaunch({
+          url: '../../pages/main/main'
+        })
+      }
+    })
   }
+  
 })

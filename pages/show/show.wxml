@@ -35,7 +35,7 @@
 </view>
 <!---------------SOCK COUNT AND MESSAGE BUTTONS------------->
 <view class="green-buttons">
-  <view class="machine-sock-count">I've Eaten {{sock_count}} Socks!</view>
+  <view class="machine-sock-count">Eaten {{sock_count}} Socks</view>
 </view>
 <!----------DESCRIPTION---------------------->
 <view class="machine-description">

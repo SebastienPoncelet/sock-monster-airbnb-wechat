@@ -1,1 +1,140 @@
 /* pages/booking/booking.wxss */
+
+.title {
+  font-size: 22px;
+  color: #1D3557;
+  font-weight: bold;
+  text-align: center;
+  margin: 5vh;
+}
+
+.btn-confirm {
+color:white;
+font-size: 16px;
+background-color: #27AE60;
+border-radius: 18px;
+padding: 1vh;
+margin: 6vh;
+opacity: 0.9;
+font-weight: bold;
+width:74vw;
+margin-top: 4vh;
+}
+
+.summary {
+  /* font-weight: bold; */
+  font-size:18px;
+  color: #092851;
+  width:13vh;
+  text-align: center;
+  font-weight: 500;
+}
+
+.summary .info {
+   /* border-bottom: 2px solid #F0F0F0; */
+     /* margin: 2vh;
+       margin-left:7vh;
+      margin-right:-1vh; */
+    padding:2vh;
+}
+
+.dates {
+  font-weight: light;
+  font-size:17px;
+  color: #484848;
+  margin-top: 7vh;
+    width:87vw;
+
+}
+
+.dates .info {
+     border-bottom: 2px solid #F8F8F8;
+       margin: 2vh;
+     margin-left:7vh;
+
+
+}
+
+.price .info {
+       border-bottom: 2px solid #F8F8F8;
+         margin: 2vh;
+          margin-left:7vh;
+
+
+}
+
+.price {
+  font-weight: light;
+  font-size:17px;
+  color: #484848;
+  margin-top:7vh;
+    width:70vw;
+    display: flex;
+    justify-content: space-between;
+  border-bottom: 2px solid #F8F8F8;
+     margin-left:7vh; 
+
+}
+
+.address {
+     border-bottom: 2px solid #F8F8F8;
+         margin: 2vh;
+font-weight: light;
+  font-size:17px;
+  color: #484848;
+  margin-top:7vh;
+    width:70vw;
+    margin-left:7vh;
+}
+
+.image {
+  height: 17vh;
+  width: 32vw;
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  border-radius: 13px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  margin:3vh;
+  padding-right:5vh;
+}
+
+.purchase-detail {
+  display: flex;
+  align-items: center;
+  margin-left:3vh;
+}
+
+.price .total-text {
+  font-weight: bold;
+  /* border-bottom: 2px solid #F8F8F8; */
+  font-size:21px;
+  color: #484848;
+  width:71vw;
+}
+
+.price .total-price {
+    font-weight: bold;
+  /* border-bottom: 2px solid #F8F8F8; */
+   margin-left:7vh;  
+  font-size:21px;
+  color: #484848;
+  width:71vw;
+  text-align: right;
+  margin-right:1vh;
+}
+
+
+.machine-sock-count {
+  border: 1px solid #1D3557;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 30px;
+  margin: 15px 0px;
+  width: 67vw;
+  text-align: center;
+  color: #484848;
+  font-weight:600;
+  font-size:16px;
+  margin-left:6vh;
+}
