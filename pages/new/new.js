@@ -1,18 +1,13 @@
-// pages/new/new.js
+    // pages/new/new.js
 
 const app = getApp()
-const apiURL = app.globalData.host
-const AV = require('../../utils/av-weapp-min.js');
-
+const db = wx.cloud.database()
 // Calling the av-weapp-min.js file which is Leancloud's SDK
 
 
 Page({
-
-  data: {
-    date: '2018-09-01',
-    fileUrl: ""
-  },
+    data: {
+    },
 
 // Date Picker
   bindDateChange: function (e) {
@@ -31,32 +26,20 @@ Page({
       sizeType: [ 'compressed'],
       sourceType: ['album', 'camera'],
       success: function (res) {
-        let tempFilePath = res.tempFilePaths[0];
-        console.log(tempFilePath)
-        wx.showToast({
-          title: 'uploading..',
-          icon: 'loading',
-          duration: 10000,
-          mask: true,
-        })
-        new AV.File('file-name', {
-          blob: {
-            uri: tempFilePath,
+        console.log("log res from take photo",res)
+        var photoPath = res.tempFilePaths[0]
+        console.log("log tempPath", photoPath)
+       wx.cloud.uploadFile({
+         cloudPath: `${Date.now()}-${Math.floor(Math.random(0, 1) * 10000000)}`, 
+        filePath: photoPath,
+         success: res => {
+           console.log("success",res)
+           that.setData({
+             fileID: res.fileID});
+            console.log("cloud id to store",that.data.fileID)
           },
-        }).save().then(
-          file => {
-            wx.hideToast()
-            wx.showToast({
-              title: 'uploaded',
-              icon: 'success',
-              image: '',
-              duration: 2000,
-              mask: true,
-            })
-            console.log(file.url())
-            that.data.fileUrl = file.url()
-          }
-        ).catch(console.error);
+          fail: console.error
+        })
       }
     });
   },
@@ -78,8 +61,8 @@ Page({
 
     var name = e.detail.value.name;
     // var image = e.detail.value.image;
-    var photo = this.data.fileUrl;
-    console.log(photo);
+    var photo = this.data.fileID;
+    console.log("store in photo variable",photo);
     var description = e.detail.value.description;
     var address = e.detail.value.address;
     var socks = e.detail.value.socks;
